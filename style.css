@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, BlinkMacSystemFont, 'Open Sans', 'Segoe UI', 'Helvetica Neue', system-ui, -apple-system, sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-image: linear-gradient(180deg, #161616, #000000);
+  color: white;
+}
+
+header {
+  text-align: center;
+}
+
+.movie-displayer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 7px;
+  overflow-x: auto;
+  padding: 5px;
+}
+
+img {
+  height: 200px;
+}
